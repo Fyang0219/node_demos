@@ -1,0 +1,21 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "node practice for testing",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node_demos"
+  },
+  "keywords": [
+    "testing"
+  ],
+  "author": "feiyang",
+  "license": "ISC",
+  "dependencies": {
+    "should": "*"
+  }
+}
