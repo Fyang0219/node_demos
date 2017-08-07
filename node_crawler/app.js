@@ -1,7 +1,7 @@
 var superagent = require('superagent'),
 	cheerio = require('cheerio'),
 	express = require('express');
-
+// call required express and () will invoke express right away
 var app = express();
 
 app.get('/', function(req, res, next) {
