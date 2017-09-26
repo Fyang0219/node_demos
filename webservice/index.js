@@ -27,7 +27,7 @@ app.delete('/articles/:id', (req, res, next ) => {
 });
 
 app.listen(app.get('port'), () => {
-	console.log('App started on port', app.get('port'));
+	console.log('Application started on', app.get('port'));
 });
 
 module.exports = app;
